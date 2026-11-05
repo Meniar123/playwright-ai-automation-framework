@@ -6,7 +6,11 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
 # Secrets
 .env
 .env.*
 !.env.example
+
+# Fichiers de travail des agents Playwright
+.playwright-mcp/
